@@ -9,8 +9,10 @@ function Home() {
           position: "absolute",
         }}
       >
-        <Sidebar />
-        Home page
+        <>
+          <Sidebar />
+          Home page
+        </>
       </div>
     </MainLayout>
   );
